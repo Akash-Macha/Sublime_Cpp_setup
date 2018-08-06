@@ -17,6 +17,7 @@
  }
 
 5. Save it. Rename the file as 'C++ Build' or anything you want and save it.
+   Do not change the extention. It should look like this-> file_name.sublime-build
 
 6. Go into Tools > Build System and then Select your Build 'C++ Build'
 7. Later open any folder using Ctrl+O where you usually store your programs. In that folder create a file name 'input.txt'
