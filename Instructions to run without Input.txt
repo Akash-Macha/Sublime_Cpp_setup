@@ -1,0 +1,22 @@
+Just create a new Build-System with the following commands ( Tools > Build-systems > New Build System )
+
+
+{
+    "cmd": ["g++", "$file", "-o", "$file_base_name"],
+    "selector": "source.c++",
+    "working_dir": "$file_path",
+
+    "variants":
+    [
+        {
+            "name": "Run",
+            "cmd": ["g++", "$file", "-o", "$file_base_name", "&&", "$file_path/$file_base_name"],
+            "shell": true
+        }
+    ]
+}
+
+
+Then save it with file_name.sublime-build
+
+Thats All! (Make sure to you use this Build to run your program without input)
