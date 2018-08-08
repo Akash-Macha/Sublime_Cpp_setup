@@ -1,3 +1,6 @@
+<< https://github.com/Akash-Macha/Sublime_Cpp_setup/blob/master/Instructions%20to%20run%20with%20Input.txt
+Check the above link for detailed instructions >>
+
 Just create a new Build-System with the following commands ( Tools > Build-systems > New Build System )
 
 
