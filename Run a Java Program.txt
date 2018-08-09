@@ -1,0 +1,18 @@
+Create a new Buid-system with the following commands
+It'll show the output directly in the sublime build/console
+
+{
+  "shell_cmd": "javac -Xlint $file && java $file_base_name",
+  "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+  "selector": "source.java",
+  "shell": true
+}
+
+Use the following commands iff you want to run it on cmd;
+When ever you run a java program using this build, It'll open up a cmd window running the current program!
+
+{
+  "cmd": ["javac", "$file_name","&&","start","cmd","/k","java", "$file_base_name"],
+  "path":"C:\\Program Files\\Java\\jdk1.8.0_171\\bin",
+  "shell": true
+}
