@@ -1,0 +1,10 @@
+// # Guidance
+// Goto -> Preferences -> Key bindings
+// Then paste this code in the right side and save
+// Read the default shortcut commands in the left bar and make relevant changes
+
+
+[
+    { "keys": ["ctrl+`"], "command": "toggle_side_bar" },
+    { "keys": ["ctrl+enter"], "command": "build" },
+]
