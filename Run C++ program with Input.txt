@@ -16,7 +16,7 @@
  ]
  }
 
-5. Save it. Rename the file as 'C++ Build' or anything you want and save it.
+5. Save it. Rename the file as 'C++ Build' or something like that and save it.
    Do not change the extention. It should look like this-> file_name.sublime-build
 
 6. Go into Tools > Build System and then Select your Build 'C++ Build'
@@ -25,3 +25,5 @@
    The benefit of doing is that whenever you have to give inputs just open the created input.txt 
    enter your input data and save it. Later perform Ctrl+B for compiling and Ctrl+Shift+B for Run.
 9. For better usage just open your Sublime with 2 column view.
+
+The default location at which these snippets are located in windows is : C:\Users\Akash\AppData\Roaming\Sublime Text 3\Packages\User
