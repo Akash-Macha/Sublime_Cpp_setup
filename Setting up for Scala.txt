@@ -1,0 +1,26 @@
+Download the Scala binaries for windows(Check Other ways to install Scala):  https://www.scala-lang.org/download/
+Then, install it normally!
+---------------------
+Setup path variable:
+Goto Environment Varibles -> System Variables -> Path (Edit)
+
+Then, add default bin folder of Scala here (ie.  C:\Program Files (x86)\scala\bin  )
+[ Make sure you donnot add this path in the User variable for UserName ]
+---------------------
+Creating New Build System:
+
+Open Sublime -> goto Tools -> Build System -> New Build System 
+Then, paste the follwing code
+__________
+{
+    "cmd": ["C:/Program Files (x86)/scala/bin/scala", "$file_name"],
+    "working_dir": "${project_path:${folder}}",
+    "selector": "source.scala",
+    "shell": true
+}
+___________
+
+Save it with ->   Scala.sublime-build
+
+Do not forget to select the Scala build system before running a scala program!
+Thats All!
