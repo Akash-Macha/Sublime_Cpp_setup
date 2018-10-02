@@ -5,7 +5,7 @@ Instructions to setup SublimeText to run the programs directly inside it!
   
 * Run a **Java progarm** directly in the sublime - [Link](https://github.com/Akash-Macha/Sublime_settings/blob/master/Run%20a%20Java%20Program.txt)
 
-* This is a Build System to run **JavaScript** directly on SubLimeText ( make sure you've [NodeJs](https://nodejs.org/en/download/) installed ) - [Link](https://github.com/Akash-Macha/Sublime_settings/blob/master/NodeJs.sublime-build) 
+* This is a Build System to run **JavaScript** directly in SubLimeText ( make sure you've [NodeJs](https://nodejs.org/en/download/) installed ) - [Link](https://github.com/Akash-Macha/Sublime_settings/blob/master/NodeJs.sublime-build) 
 
 * Instructions to download and run **Scala** in SubLimeText - [Link](https://github.com/Akash-Macha/Sublime_settings/blob/master/Setting%20up%20for%20Scala.txt)
 
